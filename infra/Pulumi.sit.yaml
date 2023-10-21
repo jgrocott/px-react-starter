@@ -1,0 +1,8 @@
+config:
+  gcp:project: px-react-starter
+  pulumi:template: static-website-gcp-typescript
+  px-react-starter:errorDocument: error.html
+  px-react-starter:indexDocument: index.html
+  px-react-starter:path: ./www
+environment:
+  - SIT
